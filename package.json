@@ -11,5 +11,6 @@
   },
   "dependencies": {
     "three": "^0.137.4"
-  }
+  },
+    "homepage": "https://yoshi-non.github.io/Three-js-web-cube/"
 }
