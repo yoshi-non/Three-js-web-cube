@@ -2,6 +2,8 @@
   "name": "scroll-animation",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -10,7 +12,8 @@
     "vite": "^2.7.2"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "three": "^0.137.4"
   },
-    "homepage": "https://yoshi-non.github.io/Three-js-web-cube/"
+  "homepage": "https://yoshi-non.github.io/Three-js-web-cube/"
 }
